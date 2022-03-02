@@ -8,9 +8,13 @@ API endpoints:
 Where, 
 
 'name' (Char field) is name of the Hotel and should be a series of characters or a string
+
 'address' (Char field) describes address of the Hotel and should be a series of characters or a string
+
 'id' (Int field) is the unique identifier for the hotel (Primary Key)
+
 'price' (Int field) denotes the price of the Hotel and should contain only integers
+
 'availablity' (Boolean field) denotes the availablity of the hotel, It can be either True or False (since it is not a mandatory field, it can be null).
 
 #### This adds a new Hotel to the hotel table in connected database.
