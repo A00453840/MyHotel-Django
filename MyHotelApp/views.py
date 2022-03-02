@@ -35,10 +35,3 @@ def Hotels_detail(request,pk):
         hotelSerializer = HotelSerializers(hotels_list, many=False)
         return Response(hotelSerializer.data)
 
-
-class get_generics_list(generics.ListCreateAPIView):
-    queryset = Hotels.objects.all()
-    serializer_class = HotelSerializers
-
-    filter_backends = [filters.SearchFilter]
-    search_fields = ['name']
