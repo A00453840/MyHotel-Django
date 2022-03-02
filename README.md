@@ -14,6 +14,7 @@ Where,
 
 #### This adds a new Hotel to the hotel table in connected database.
 
+----
 
 #### GET: /app/hotel_list - This returns the list of all Hotels from the connected database.
 The returned array of hotels contain the following fields: id, name, address and price.
